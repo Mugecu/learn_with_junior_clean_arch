@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35506.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{16EC99F6-F8AB-4787-9DEB-A8E4F9077F38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "TransferResiduesService", "TransferResiduesService", "{53FD2B3D-C325-4527-98E2-91F5776D783F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "egisz-receive-residue.API", "egisz-receive-residue.API", "{A920DCD3-6F6E-4529-8EF3-E804434FE076}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "egisz-receive-residue.API", "src\egisz-receive-residue.API\egisz-receive-residue.API.csproj", "{6FCAA92C-1437-422E-BBF7-84B7620A414F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "egisz-receive-residue.Application", "src\TransferResiduesService\egisz-receive-residue.Application\egisz-receive-residue.Application.csproj", "{452E3810-A575-46E0-BA04-E4C78EB16B89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "egisz-receive-residue.Domain", "src\TransferResiduesService\egisz-receive-residue.Domain\egisz-receive-residue.Domain.csproj", "{52F588CF-C0D7-48E1-84B4-2D151E99A1C9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "egisz-receive-residue.Infrastructure", "src\TransferResiduesService\egisz-receive-residue.Infrastructure\egisz-receive-residue.Infrastructure.csproj", "{B68AAA1C-CAE1-4AE6-8483-838F8A7A87D4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6FCAA92C-1437-422E-BBF7-84B7620A414F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FCAA92C-1437-422E-BBF7-84B7620A414F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FCAA92C-1437-422E-BBF7-84B7620A414F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FCAA92C-1437-422E-BBF7-84B7620A414F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{452E3810-A575-46E0-BA04-E4C78EB16B89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{452E3810-A575-46E0-BA04-E4C78EB16B89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{452E3810-A575-46E0-BA04-E4C78EB16B89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{452E3810-A575-46E0-BA04-E4C78EB16B89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52F588CF-C0D7-48E1-84B4-2D151E99A1C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52F588CF-C0D7-48E1-84B4-2D151E99A1C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52F588CF-C0D7-48E1-84B4-2D151E99A1C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52F588CF-C0D7-48E1-84B4-2D151E99A1C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B68AAA1C-CAE1-4AE6-8483-838F8A7A87D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B68AAA1C-CAE1-4AE6-8483-838F8A7A87D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B68AAA1C-CAE1-4AE6-8483-838F8A7A87D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B68AAA1C-CAE1-4AE6-8483-838F8A7A87D4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{53FD2B3D-C325-4527-98E2-91F5776D783F} = {16EC99F6-F8AB-4787-9DEB-A8E4F9077F38}
+		{A920DCD3-6F6E-4529-8EF3-E804434FE076} = {16EC99F6-F8AB-4787-9DEB-A8E4F9077F38}
+		{6FCAA92C-1437-422E-BBF7-84B7620A414F} = {A920DCD3-6F6E-4529-8EF3-E804434FE076}
+		{452E3810-A575-46E0-BA04-E4C78EB16B89} = {53FD2B3D-C325-4527-98E2-91F5776D783F}
+		{52F588CF-C0D7-48E1-84B4-2D151E99A1C9} = {53FD2B3D-C325-4527-98E2-91F5776D783F}
+		{B68AAA1C-CAE1-4AE6-8483-838F8A7A87D4} = {53FD2B3D-C325-4527-98E2-91F5776D783F}
+	EndGlobalSection
+EndGlobal
